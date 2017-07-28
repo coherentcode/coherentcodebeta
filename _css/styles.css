@@ -1,0 +1,145 @@
+/*-----------------------
+    COLOR PALETTE
+white   - white
+#EFEFEF - Light grey
+#D66E42 - Orange
+#1B1B1E - Dark navy blue
+------------------------*/
+
+/*-----------------------------------------------
+    FONTS
+font-family: 'Orbitron', sans-serif; - Sci-fi
+font-family: 'Ubuntu', sans-serif;   - Readable
+------------------------------------------------*/
+
+
+/* Global Styles ------------ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: white;
+  color: #1B1B1E;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3 {
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+}
+p, a {
+  font-family: 'Ubuntu', sans-serif;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* Header ------------ */
+.page-header {
+  background-color: #1B1B1E;
+  margin: 40px 5%;
+  border-radius: 10px;
+  overflow: auto;
+}
+.site-title {
+  font-size: 3rem;
+  padding: 10px 10px 10px 30px;
+  color: white;
+  width: 50%;
+  float: left;
+}
+.menu-bar {
+  float: right;
+  width: 50%;
+  
+}
+.menu-item {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  padding: 16px 5%;
+  border-left: solid 2px #D66E42;
+  border-right: solid 2px #D66E42;
+  margin: 0px;  
+}
+
+/* Blog posts ------------ */
+.post-container {
+  margin: 30px 5%;
+  overflow: auto;
+  background-color: #EFEFEF;
+  padding: 10px;
+  border-radius: 10px;
+}
+.post-header {
+  width: 20%;
+  margin: 0 5px 0 5px;
+  float: left;
+  color: white;
+  background-color: #1B1B1E;
+  padding: 15px;
+  border-radius: 15px;
+}
+.post-header h2 {
+  width: 60%;
+  padding-bottom: 4px;
+  border-bottom: solid 2px #D66E42;
+}
+.post {
+  width: 78%;
+  float: right;
+}
+.post p {
+  padding: 5px;
+  margin: 0px;
+}
+
+/* About ------------ */
+.about {
+  margin: 30px 5%;
+  background-color: #EFEFEF;
+  padding: 10px;
+  border-radius: 10px;
+}
+.about h2 {
+  font-size: 2rem;
+}
+.about p {
+  padding: 5px;
+  margin: 0px;
+}
+
+/* Contact ------------ */
+.contact {
+  margin: 30px 5%;
+  background-color: #EFEFEF;
+  padding: 10px;
+  border-radius: 10px;
+}
+.contact h2 {
+  font-size: 2rem;
+}
+.contact p {
+  padding: 5px;
+  margin: 0px;
+}
+
+/* Footer ------------ */
+.page-footer {
+  background-color: #1B1B1E;
+  margin: 40px 5% 5px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.page-footer p {
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+.page-footer a {
+  color: #D66E42;
+}
