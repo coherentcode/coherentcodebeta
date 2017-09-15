@@ -4,3 +4,4 @@ This is a repository for current and previous versions of the website I am build
 
 Version 1.0 -- Raw HTML with no scripting or styling. Much of the functionality that I'd like to add to the site is still missing.
 Version 1.1.0 -- Added basic CSS styling, updated HTML per hooks needed in CSS. Created a new branch to store the raw HTML (V1.0).
+Version 2.0 -- Overhauled the website with a more modern design. Mobile and tablet versions added, including a dropdown menu for the mobile version.
