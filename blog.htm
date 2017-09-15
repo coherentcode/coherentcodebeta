@@ -1,0 +1,407 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>coherent code - blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="_images/cc-logo-32x32.png">
+  <link rel="stylesheet" href="_css/general-styles.css">
+  <link rel="stylesheet" href="_css/desktop-styles.css">
+  <link rel="stylesheet" href="_css/tablet-styles.css">
+  <link rel="stylesheet" href="_css/mobile-styles.css">
+  <script src="_scripts/dropdown-nav.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+<header role="banner" class="page-header indigo-header">
+  <div class="site-title white-title">
+    <a href="index.htm"><img src="_images/cc-logo-white-32x32.png">
+    <h1>coherent code</h1></a>
+  </div>
+  <nav role="navigation" class="menu-bar">
+      <p>
+        <a href="blog.htm" title="blog" class="menu-item white-item">blog</a>
+        <a href="projects.htm" title="projects" class="menu-item white-item">projects</a>
+        <a href="about.htm" title="about" class="menu-item white-item">about</a>
+        <a href="contact.htm" title="contact" class="menu-item white-item">contact</a>
+      </p>
+  </nav>
+  <nav role="navigation" class="dropdown-nav">
+    <div class="dropbtn-container">
+      <button onclick="dropDown()" class="dropbtn dropbtn-white"></button>
+    </div>
+    <div class="dropdown-menu">
+      <a href="blog.htm" title="blog" class="drop-item grey-item">blog</a>
+      <a href="projects.htm" title="projects" class="drop-item grey-item">projects</a>
+      <a href="about.htm" title="about" class="drop-item grey-item">about</a>
+      <a href="contact.htm" title="contact" class="drop-item grey-item">contact</a>
+    </div>
+  </nav>
+</header>
+<main role="main">
+  <article role="article" class="post-container">
+    <header class="post-header">
+      <h2>project almost done!</h2>
+      <p>31 August 2017</p>
+    </header>
+    <section class="post">
+      <p>I'm almost done with my blog website project! Here is the list as it stands:</p>
+      <ul>
+      	<li><span style="color:#009115;">Create site logo</span></li>
+      	<li><span style="color:#009115;">Find background images for index page tiles</span></li>
+      	<li><del><span style="color:#009115;">Grey out background images, create multiple resolutions for different displays</span></del></li>
+      	<li><span style="color:#009115;">Write HTML for new index and project pages</span></li>
+      	<li><span style="color:#009115;">Style general CSS (menu bar, footer, fonts, color palette)</span></li>
+      	<li><span style="color:#009115;">Create tiles on index page, add background images</span></li>
+      	<li><span style="color:#009115;">Set up page layouts for blog, projects, about, contact (will be similar to one another)</span></li>
+      	<li><span style="color:#009115;">Copy over blog posts from wordpress to make the blog section up to date</span></li>
+      	<li><span style="color:#009115;">Create mobile &amp; tablet CSS styles (will only be layout changes)</span></li>
+      	<li><del><span style="color:#009115;">Write smart image loading script</span></del> <span style="color:#018aa3;">(I now only have one image that gets resized, so I used srcset within the HTML)</span></li>
+      	<li><del><span style="color:#009115;">Write script to control mouse-over effects on tiles</span></del><span style="color:#009115;"> <span style="color:#018aa3;">(ended up doing with simple :hover CSS transitions)</span></span></li>
+      	<li><span style="color:#009115;">Write script for drop-down menu on mobile site</span></li>
+      	<li><span style="color:#ff9900;">Write script to make back-to-top button appear after scrolling down</span></li>
+      	<li><span style="color:#ff9900;">Write a simple interactive game</span></li>
+      	<li>Add source downloads/displays to projects section</li>
+      	<li><del>Write script to automate the population of a navigation menu for blog posts</del> <span style="color:#018aa3;">(pushing this to version 2.1+)</span></li>
+      	<li>Write script to push footer to bottom of viewport when page content is shorter than viewport, but not move it if the page is taller than the viewport</li>
+      </ul>
+      <p>I've thought of several more components that I'd like to add to the site. However, I've decided to take on a more "Agile" approach to it and define a set of features I'd like to prioritize, get done, and release. When doing this, I decided to put off creating an automatically populated navigation menu for blog posts. I didn't think about this at the time, but it will be much more practical to make this a server-side script.</p>
+
+      <p>Once I'm done with this project, I plan on completing a course on React, working on an update, completing a course on Angular, completing an update, completing a course on Node, and then pushing another update. After I've completed all of these courses, I may begin work on a new website.</p>
+
+      <p>I have a lot of work to do as far as writing actual content into the "about" section, "projects" section, and etc., so my next update may be a week or two from now.</p>
+    </section>
+  </article>
+  <article role="article" class="post-container">
+    <header class="post-header">
+      <h2>one month old</h2>
+      <p>25 August 2017</p>
+    </header>
+    <section class="post">
+      <p>Yesterday was the one month anniversary of this blog! Perhaps in another month I'll get someone other than my mother to read it (kidding, sort of).</p>
+
+      <p>I have finally finished all of the styling for tablet displays and am happy with the finished product. On Monday I'll be able to go in and make adjustments for the mobile version. The majority of the work here was going through all of the CSS styling I already had and figuring out what needed to be forked off into seperate desktop and tablet stylesheets. I wanted to keep as much in the main stylesheet as possible, for ease of editing later on.</p>
+
+      <p>I have a few things to add to the to-do list, so here it is again with the new items included:</p>
+      <ul>
+      	<li><span style="color:#009115;">Create site logo</span></li>
+      	<li><span style="color:#009115;">Find background images for index page tiles</span></li>
+      	<li><del><span style="color:#009115;">Grey out background images, create multiple resolutions for different displays</span></del></li>
+      	<li><span style="color:#009115;">Write HTML for new index and project pages</span></li>
+      	<li><span style="color:#009115;">Style general CSS (menu bar, footer, fonts, color palette)</span></li>
+      	<li><span style="color:#009115;">Create tiles on index page, add background images</span></li>
+      	<li><span style="color:#009115;">Set up page layouts for blog, projects, about, contact (will be similar to one another)</span></li>
+      	<li><span style="color:#009115;">Copy over blog posts from wordpress to make the blog section up to date</span></li>
+      	<li><span style="color:#ff9900;">Create mobile &amp;</span> <span style="color:#009115;">tablet CSS styles (will only be layout changes)</span></li>
+      	<li>Write smart image loading script</li>
+      	<li>Write script to control mouse-over effects on tiles</li>
+      	<li>Write script for drop-down menu on mobile site</li>
+      	<li>Write script to make back-to-top button appear after scrolling down</li>
+      	<li>Write a simple interactive game</li>
+      	<li>Add source downloads/displays to projects section</li>
+      	<li>Write script to automate the population of a navigation menu for blog posts</li>
+      	<li>Write script to push footer to bottom of viewport when page content is shorter than viewport, but not move it if the page is taller than the viewport</li>
+      </ul>
+      <p>I'll write another update once I get the next few items knocked off of the list!</p>
+    </section>
+  </article>
+  <article role="article" class="post-container">
+    <header class="post-header">
+      <h2>another re-style</h2>
+      <p>22 August 2017</p>
+    </header>
+    <section class="post">
+      <p>As I got into the mobile layouts of the web project I decided on making some more design changes. Viewing the website on a smaller screen and in a more piece-wise manner made me realize some of the color and layout choices were a bit disjointed.</p>
+
+      <p>I went back to my CSS and made my entire color palette gray-scale + indigo, rather than having indigo, two oranges, and grays. I also simplified some of the layout features -- namely making the blog posts single column, and stripping down the tile hover transition to only change the background color slightly.</p>
+
+      <p>When I started this web project, I was focused on using as many CSS features as possible in order to highlight what I had learned. Now I 'm realizing that I care more about what the website looks like, and less about how many tricks I show off with it. At the end of the day, websites should be as simple as possible. Almost anyone that takes an online CSS course can make a webpage with floats, inline-blocks, transitions and etc., but only a portion of those can make websites that also look good.</p>
+
+      <p>Enough of that rant, lets move on to a quick tip. In my last post, I mentioned that I started reading the <a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener">MDN web docs</a> for a few minutes every night. To anyone that is just starting out in front end web development: I would highly recommend this! It is unlike an online course where you have to worry about retaining all of the information you learn since it will likely be needed further on in the course. You can read the web docs casually, soak in whatever information your brain decides is most intriguing, and move on. It's been great to slowly add pieces of information to my toolkit, and it is definitely helping me feel more comfortable with web development as a whole.</p>
+
+      <p>I should have a good chunk of time in the next couple of days to get more work done on the web project. I look forward to updating you then!</p>
+    </section>
+  </article>
+  <article role="article" class="post-container">
+    <header class="post-header">
+      <h2>busy week</h2>
+      <p>18 August 2017</p>
+    </header>
+    <section class="post">
+      <p>Unfortunately I have been extremely busy with freelance work the last two days and have not had time to work on the web project.</p>
+
+      <p>Luckily, I have discovered a way to keep myself moving forward in times of heavy work. Reading! I finished my most recent book, Isaac Asimov's <em>The Stars, Like Dust, </em>and have since had a void in my life between the times of 10:30 and 11:00pm. Rather than getting a new book, I've decided to devote any time I would normally be reading fiction to reading through the Mozilla Developer Network web docs.</p>
+
+      <p>One of the biggest hurdles when starting something new is figuring out how to take in information piece by piece, and not get overwhelmed. The nice thing about this type of hurdle is that the further into the subject matter you get, the less overwhelmed you become. Even though you don't know everything, you start to gain the ability to index things in your mind, to create a mental map.</p>
+
+      <p>I feel that I am now reaching this point with web development. I'm beginning to understand what the range of technologies are, how they function, how they interact, and etc. Taking 30 minutes out of my day, even when I'm busy, to read about different subjects is helping me get more and more comfortable with web development as a whole.</p>
+
+      <p>I'm not sure whether or not I'll be writing an update on Monday, because I believe that the freelance work I'm on right now will keep me busy through the end of the day. However, I will try to get back into the swing of things Tuesday, and start knocking out the JavaScript for my web project!</p>
+    </section>
+  </article>
+  <article role="article" class="post-container">
+    <header class="post-header">
+      <h2>shake-up</h2>
+      <p>16 August 2017</p>
+    </header>
+    <section class="post">
+      <p>While looking over my website more, I decided that I hated the way the tiles looked. Rather than using background images for each one, I'm going to use a small graphic above the text and have a mouse hover transition effect that changes the background color slightly.</p>
+
+      <p>With each tile having a picture, the website looked far too busy. While I have had to tell myself several times that I'm just a beginner and things aren't going to be perfect, this error was a little too big to overlook.</p>
+
+      <p>It is hard, in general, to decide how much time to spend on tasks. There are several portions of my HTML that I'd like to go back to and simplify. Most of my CSS is probably inefficient and over-complicated. However, I want to get this project completed in a timely fashion, and I know that if I try to make everything perfect I'll end up getting in over my head. If I keep practicing, then perhaps one day I will be able to write near-perfect HTML and CSS. Alas, that day is not today.</p>
+    </section>
+  </article>
+  <article role="article" class="post-container">
+    <header class="post-header">
+      <h2>another project update</h2>
+      <p>15 August 2017</p>
+    </header>
+    <section class="post">
+      <p>Here is my current progress on the web project 2.0:</p>
+      <ul>
+      	<li><span style="color:#009115;">Create site logo</span></li>
+      	<li><span style="color:#009115;">Find background images for index page tiles</span></li>
+      	<li><span style="color:#009115;">Grey out background images, create multiple resolutions for different displays</span></li>
+      	<li><span style="color:#009115;">Write HTML for new index and project pages</span></li>
+      	<li><span style="color:#009115;">Style general CSS (menu bar, footer, fonts, color palette)</span></li>
+      	<li><span style="color:#009115;">Create tiles on index page, add background images</span></li>
+      	<li><span style="color:#009115;">Set up page layouts for blog, projects, about, contact (will be similar to one another)</span></li>
+      	<li><span style="color:#009115;">Copy over blog posts from wordpress to make the blog section up to date</span></li>
+      	<li><span style="color:#ff9900;">Create mobile &amp; tablet CSS styles (will only be layout changes)</span></li>
+      	<li>Write smart image loading script</li>
+      	<li>Write script to control mouse-over effects on tiles</li>
+      	<li>Write script for drop-down menu on mobile site</li>
+      	<li>Write script to make back-to-top button appear after scrolling down</li>
+      	<li>Write a simple interactive game</li>
+      	<li>Add source downloads/displays to projects section</li>
+      </ul>
+      <p>As you can see, I'm almost done with all of the HTML and CSS work. The bullet point I'm working on now, "Create mobile &amp; tablet CSS styles", is a pretty hefty one. I've spent several hours on it already, and I'm not even close to being halfway done with it.</p>
+
+      <p>I believe that my free amazon web services account will still work fine for hosting my website, since JavaScript runs in the browser. However, once I start adding in server-side scripting for my "contact" page and other things I may have to upgrade.</p>
+
+      <p>My plan of attack on the Lynda coursework has changed a bit. Rather than jumping back into CSS and learning Sass right away, I'm going to stay in JavaScript for a while. I've been having a lot of fun with JavaScript, and there are still several packages I want to learn. I will probably start with React, and then move on to Angular and eventually Node. I know that PHP is much more widely used than Node for server-side applications, but I figured I'd stay within the JavaScript universe since I'm still a novice. I can always learn PHP at some point in the future.</p>
+
+      <p>I look forward to updating you on my progress tomorrow!</p>
+    </section>
+  </article>
+  <article role="article" class="post-container">
+    <header class="post-header">
+      <h2>project update</h2>
+      <p>9 August 2017</p>
+    </header>
+    <section class="post">
+      <p>Work is still underway on the update to my website.</p>
+
+      <p>The new version is going to have the following page structure: index, blog, projects, about, and contact. Index will have a brief overview of the site with tiles anchoring to each specific page. I was thinking about making the menu bar at the top of the site static, but I've decided to make a "back to top" button instead. This will only be needed on the blog and projects pages.</p>
+
+      <p>I broke up the work into steps, for the sake of having a list to cross things off of. These steps are by no means equal (as far as how much time will be spent completing them).</p>
+      <ul>
+      	<li><span style="color:#009115;">Create site logo</span></li>
+      	<li><span style="color:#009115;">Find background images for index page tiles</span></li>
+      	<li><span style="color:#009115;">Grey out background images, create multiple resolutions for different displays</span></li>
+      	<li><span style="color:#009115;">Write HTML for new index and project pages</span></li>
+      	<li><span style="color:#ff9900;">Style general CSS (menu bar, footer, fonts, color palette)</span></li>
+      	<li>Create tiles on index page, add background images</li>
+      	<li>Set up page layouts for blog, projects, about, contact (will be similar to one another)</li>
+      	<li>Copy over blog posts from wordpress to make the blog section up to date</li>
+      	<li>Create mobile &amp; tablet CSS styles (will only be layout changes)</li>
+      	<li>Write smart image loading script</li>
+      	<li>Write script to control mouse-over effects on tiles</li>
+      	<li>Write script for drop-down menu on mobile site</li>
+      	<li>Write script to make back-to-top button appear after scrolling down</li>
+      	<li>Write a simple interactive game</li>
+      	<li>Add source downloads/displays to projects section</li>
+      </ul>
+      <p>As you can see, I have a lot to do. Judging by the amount of time I've already wrestled through CSS, I'm on track to learn a lot. This project should be a great way to get some real experience before heading back into coursework.</p>
+    </section>
+  </article>
+  <article role="article" class="post-container">
+    <header class="post-header">
+      <h2>getting started</h2>
+      <p>8 August 2017</p>
+    </header>
+    <section class="post">
+      <p>I got most of the preliminary work done for my web project today. I want my index.htm page to have a tile layout -- this seems to be a popular style since it collapses down to tablet and mobile screens easily. The other pages (blog, projects, about, contact) will be laid out in a more linear fashion.</p>
+
+      <p>I want the tiles on my index page to have background images with a gradient in front of them, so I spent a lot of time today finding free images that I liked from <a href="https://pixabay.com/" target="_blank" rel="noopener">pixabay</a>. In my experience, adding a linear gradient to images already with color yields an awkward result. To avoid this, I converted all of my images to grayscale with <a href="https://www.gimp.org/" target="_blank" rel="noopener">gimp</a>. I also used <a href="https://vectr.com/" target="_blank" rel="noopener">vectr</a> to create a quick "logo" for my site.</p>
+
+      <p>These are the projects I'm planning on doing to practice my JavaScript:</p>
+      <ul>
+      	<li>Give my tiles mouseover effects</li>
+      	<li>Create a drop down navigation menu for the mobile version of the site</li>
+      	<li>Create a smart image-loader that loads images at the smallest possible resolution, based on screen size (this was a project in the <a href="https://lynda.com" target="_blank" rel="noopener">lynda</a> "JavaScript Essential Training" course, so it will be interesting if I remember how to do it on my own).</li>
+      	<li>Create an interactive game of some sort</li>
+      </ul>
+      <p>I look forward to updating you tomorrow!</p>
+    </section>
+  </article>
+  <article role="article" class="post-container">
+    <header class="post-header">
+      <h2>a new week</h2>
+      <p>7 August 2017</p>
+    </header>
+    <section class="post">
+      <p>First -- an update on how last week went. I ended up accomplishing my goal Friday of completing "JavaScript Essential Training" sections 1-6. I started writing a blog post Friday but I realized that I didn't have a whole lot to write about, so I decided against it. I certainly don't want this to turn into a blog where I write about nothing just for the sake of writing.</p>
+
+      <p>Now -- onto this week. Today, I completed sections 7-10 of the JavaScript course. There is one more section left which I will complete tomorrow. This course has been purely instructional (i.e. there were no coding challenges along the way) so I want to take a break from coursework and work on implementing some of the skills I have obtained.</p>
+
+      <p>In order to practice as many concepts from the JavaScript course as possible, I'm going to start working on a few additional web projects. I plan on hosting these from the <a href="http://coherentcodebeta.com" target="_blank" rel="noopener">coherent code beta</a> site. I'm going to have to completely revamp the site to include the blog, live versions of my projects, and lists of all of versions of my projects with source files included. This is where the site transforms from a mere blog to an exposition of my learning experience and the qualities of work completed along the way.</p>
+
+      <p>If you think that this sounds pretty cool, you're not alone - I do, too. In my post tomorrow, I should have a better idea of the projects I'm going to be working on.</p>
+    </section>
+  </article>
+  <article role="article" class="post-container">
+    <header class="post-header">
+      <h2>return</h2>
+      <p>3 August 2017</p>
+    </header>
+    <section class="post">
+      <p>I have unfortunately had to scrap my original weekly goals. I work as a freelance draftsman, so my workload fluctuates quite a bit. I've been incredibly busy for the past three days and haven't been able to dedicate very much time to learning web development.</p>
+
+      <p>I originally wanted to keep my goals intact and spend every waking moment working on them, but I've decided against it. I'm a firm believer in "slow and steady wins the race", and I fear that cramming in a lot of coursework will only lead to me retaining very little of it. Keeping realistic goals ensures that I meet them, which leads to satisfaction, which leads to motivation and sustained progress.</p>
+
+      <p>So, my new weekly goal (i.e. tonight and tomorrow) is to get through the first 6 sections of "Javascript Essential Training" on <a href="http://www.lynda.com" target="_blank" rel="noopener">lynda.com</a>.</p>
+    </section>
+  </article>
+  <article role="article" class="post-container">
+    <header class="post-header">
+      <h2>week two</h2>
+      <p>31 July 2017</p>
+    </header>
+    <section class="post">
+      <p>Week two has commenced! I'm going to start posting the weekly goals I made last Friday with color-coding to show what I've done (green), and whats been started (orange).</p>
+      <ul>
+      	<li>Blog website project:
+      <ul>
+      	<li>Add section to house links to previous GitHub releases, as well as previous versions of the site</li>
+      	<li><span style="color:#ff9900;">Make it adjust to different screen sizes</span></li>
+      	<li><span style="color:#ff9900;">Improve the styling in general</span></li>
+      </ul>
+      </li>
+      	<li><span style="color:#009115;">Complete "CSS Essential Training 2"</span></li>
+      	<li>Complete "Javascript Essential Training"</li>
+      	<li>Get started (maybe complete?) "Sass Essential Training"</li>
+      </ul>
+      <p>As shown above, I have completed the "CSS Essential Training 2" course on <a href="http://www.lynda.com" target="_blank" rel="noopener">lynda.com</a>. It was essentially the same structure as part 1 of the course, with video lessons and a work-a-long project to go with those video lessons. I enjoyed part 2, as it went into more detail with controlling page layout and creating responsive webpages (which are topics I've been curious about since I started this endeavor).</p>
+
+      <p>I'm excited to update my web project with these lessons in mind. When I originally styled the pages, I included all of the CSS in one file. I am now splitting the CSS up into 4 files - one for general styling, one for desktop, one for tablet, and one for mobile. My hope is that this will keep my style sheets organized and easy to maintain, although it may be overkill for a project of this size.</p>
+
+      <p>In order to stay on track to meet my weekly goals, I plan on releasing a new version of the web project tomorrow and getting started on the "Javascript Essential Training" course. I have no idea how this course is laid out or how long each section will take, so I'm not going to set a section goal at this time.</p>
+
+      <p>I look forward to updating you tomorrow!</p>
+    </section>
+  </article>
+  <article role="article" class="post-container">
+    <header class="post-header">
+      <h2>day five</h2>
+      <p>28 July 2017</p>
+    </header>
+    <section class="post">
+      <p>I spent almost all of my available time today updating the blog website with basic CSS styling. Adding classes and other hooks to the HTML was very straightforward, as I don't have a very complex page structure. However, adding the styling to everything took me much longer than I expected.</p>
+
+      <p>I started out thinking that I had a clear vision of what the page layout would look like. Once I started implementing that vision, I realized that everything I was doing looked horrible. I stopped, browsed several popular websites for inspiration, and then sketched out a design on paper. After this, everything went very smooth. The process was tedious (I didn't realize how many paddings and margins I'd have to adjust), but I eventually arrived at a finished product I was happy with.</p>
+
+      <p>I used <a href="https://fonts.google.com/" target="_blank" rel="noopener">Google Fonts</a> to find two fonts - a sci-fi looking one for the headers, and the Ubuntu font for everything else. To find a good color palette, I used the website <a href="https://coolors.co/" target="_blank" rel="noopener">Coolors</a>. They have a random palette generator, but it didn't turn up any color combinations that I liked. I ended up locking in a few colors from the generator, and then hand selecting complementary colors from there. I was originally using a very light grey for my background, but it ended up making everything else look muted, so I replaced it with white.</p>
+
+      <p>I attempted to make a design that could handle different screen sizes well, but I failed miserably. I will also be the first to admit that my design looks like it was made in 2005. However, I am a beginner, so I must accept these shortcomings for now.</p>
+      <ul>
+      	<li>Here is the <a href="https://github.com/coherentcode/coherentcodebeta/releases/tag/v1.1.0" target="_blank" rel="noopener">GitHub release</a>.</li>
+      	<li>Here is the <a href="http://coherentcodebeta.com/">actual page</a>.</li>
+      </ul>
+      <p>I only got around to finishing one section of the "CSS Essential Training 2" course on <a href="http://www.lynda.com">lynda.com</a>. It never feels good to miss a goal, so I was a little upset about this, but I think that the time I spent struggling with writing my own CSS was extremely valuable.</p>
+
+      <p>I did get around to drafting up some goals for next week. This may be a bit of a heavy workload since I do have a full time job, but I'm going to try to do it:</p>
+      <ul>
+      	<li>Blog website project:
+      <ul>
+      	<li>Add section to house links to previous GitHub releases, as well as previous versions of the site</li>
+      	<li>Make it adjust to different screen sizes</li>
+      	<li>Improve the styling in general</li>
+      </ul>
+      </li>
+      	<li>Complete "CSS Essential Training 2"</li>
+      	<li>Complete "Javascript Essential Training"</li>
+      	<li>Get started (maybe complete?) "Sass Essential Training"</li>
+      </ul>
+      <p>Unless I decide to spend the day Sunday working on Lynda coursework, I will likely not be writing any blogs this weekend.</p>
+    </section>
+  </article>
+  <article role="article" class="post-container">
+    <header class="post-header">
+      <h2>day four</h2>
+      <p>27 July 2017</p>
+    </header>
+    <section class="post">
+      <p>I exceeded my goal for today and ended up finishing all four sections of <a href="http://www.lynda.com" target="_blank" rel="noopener">lynda.com</a>'s "CSS Essential Training 1", rather than just the first three. Two of the sections were introductory and taught the basic use and syntax of CSS. The final two sections covered typography and page layout.</p>
+
+      <p>Unfortunately, I only exceeded my goal for today because none of the sections in this course had challenges associated with them. It was my opinion that the challenges in the HTML course were what gave it the perfect balance between speed and depth of learning. The CSS course does have you work on a project alongside the instructor, but there aren't any parts of that project where you are given objectives and are let loose to complete those objectives.</p>
+
+      <p>I feel that before moving on with more coursework, I need to get some hands-on practice. For this reason, I am going to update my <a href="http://coherentcodebeta.com" target="_blank" rel="noopener">coherent code beta</a> website with some basic CSS styling tomorrow, before starting the "CSS Essentials 2" course (I was originally going to wait until after the second course).</p>
+
+      <p>All in all, the first lynda course on CSS is pretty good. It still went through the relevant content in a clear and concise manner, and the order of the content made sense. If the second course is similar to this one (which I'm assuming it will be, since it has the same author), then I will be happy.</p>
+
+      <p>My plan of attack for tomorrow is as follows:</p>
+      <ul>
+      	<li>add styling to the future blog website</li>
+      	<li>complete "CSS Essential Training 2" sections 1, 2, &amp; 3 (yes, I like oxford commas)</li>
+      	<li>write out some goals for next week</li>
+      </ul>
+      <p>I look forward to updating you then!</p>
+    </section>
+  </article>
+  <article role="article" class="post-container">
+    <header class="post-header">
+      <h2>first project</h2>
+      <p>27 July 2017</p>
+    </header>
+    <section class="post">
+      <p>My first project is underway! I wrote a bare-bones HTML structure for a website to house my blog (and other things in the future). It has no styling, no scripting, and is missing most of the functionality that I intend for it to have in the finished product. It is a good representation of my web development skills thus far, seeing as I've only learned HTML.</p>
+
+      <p>Writing the webpages did not take very much time at all. The difficult part of the process, for me, was figuring out how to get those pages hosted. I'm using Amazon S3 buckets to house the files and Amazon Route 53 as my DNS provider (I purchased the domain through Google Domains, so I had to change the name servers on my Google Domains account to the name servers provided by Amazon Route 53). The root domain for the site is "coherentcodebeta.com", so I tried to create a redirect from "<strong>www.</strong>coherentcodebeta.com" to to the root domain, but I was unsuccessful. I also can't get my browser to connect to the site if the "http" protocol is not entered before the domain name. I will go back again tomorrow to try and resolve these issues.</p>
+      <ul>
+      	<li>To see my website, <a href="http://coherentcodebeta.com" target="_blank" rel="noopener">click here</a>.</li>
+      	<li>To see the GitHub repository for the website, <a href="http://github.com/coherentcode/coherentcodebeta" target="_blank" rel="noopener">click here</a>.</li>
+      	<li>To see the document I followed to get the website hosted, <a href="http://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html" target="_blank" rel="noopener">click here</a>.</li>
+      </ul>
+      <p>I also got the final two sections of the "HTML Essential Training" course done. I spent the majority of my time today scratching my head over getting the website hosted, but I don't feel that the time I spent was wasted. One of the reasons that I wanted to start a stand-a-lone project this early on in my education was to encounter those headaches up front. Even though I don't understand most of what I did today to get the website up and running, I have at least been introduced to the process. Hopefully I will understand it better after I've been back through it several times.</p>
+
+      <p>Regarding the last two sections of the lynda course -- they covered basic styling and basic scripting using CSS and JavaScript, respectively. I'm going to be completing multiple courses on both of these topics eventually, so before I had gone through the sections they did seem a bit redundant. However, once I did go through them, I realized that they are merely there to demonstrate how the technologies work alongside of HTML. One also has to consider those students who only go through the "HTML Essential Training" course (without moving on to CSS and JavaScript), in which case the final sections are extremely relevant. Overall, I'm still very happy with the learning experience at <a href="http://www.lynda.com" target="_blank" rel="noopener">lynda.com</a>.</p>
+
+      <p>Tomorrow, I'd like to knock out the first three sections of "CSS Essential Training 1". I look forward to updating you then!</p>
+    </section>
+  </article>
+  <article role="article" class="post-container">
+    <header class="post-header">
+      <h2>day two</h2>
+      <p>25 July 2017</p>
+    </header>
+    <section class="post">
+      <p>Day two went by very quick. I got the next three sections of lynda’s “HTML Essential Training” done which were “Structuring Content”, “Creating Links”, and “Creating Lists”. The “Structuring Content” section went over adding more semantic meaning to your HTML page structure for the benefit of web crawlers and readers (and I suppose anyone who views your html source). The content of the “Creating Links” and “Creating Lists” sections are summarized well by their titles.</p>
+      <p>Thus far, I’m finding that lynda’s course is doing a good job of being quick enough to keep me interested, yet tedious enough to keep me retaining information. Most of the sections have a challenge at the end of them, which are straightforward, but not completely trivial. They also have enough work in them to keep you busy for 5-20 minutes, which I find appropriate for the amount of content they are testing you on (usually about 30-60 minutes of video/interactive training).</p>
+      <p>The final two sections in this course will cover basic styling and scripting. I want to complete my first stand-alone project before I complete these sections to offer a snapshot into what my skills are like before I venture outside of HTML. Once I do complete the final two sections of “HTML Essential Training”, I’m going to move on to “CSS Essential Training” 1 &amp; 2. After that I will likely venture into the “Javascript Essential Training” course, although that’s not set in stone just yet.</p>
+      <p>Now lets talk about my first project! For someone who’s blogging about web development, why not web develop a blog? I’ll let the symmetry of this scenario bounce back and forth in your head a bit before moving on..</p>
+      <p>I’m going to start working on the final home of this blog (right now I’m just using WordPress, in case you didn’t see the web address up top). I’m not going to be moving the blog over for quite some time I’m sure, but I figured it’d be a good first project that I can come back to and improve again and again after I learn more. I got an account set up with amazon web services and registered my domain with google domains as “www.coherentcodebeta.com” (WordPress currently maintains ownership of “www.coherentcode.com” in case I ever want to upgrade my account with them).</p>
+      <p>I’m going to start off by making the site completely static with bare-bones HTML tomorrow. I’m also going to host the source directories of each version of the website on the <a href="http://www.github.com/coherentcode" title="coherent code github account" target="_blank">github account that I made for this blog</a>, that way anyone can go through and look at the site structure and also look at previous versions of the website.</p>
+      <p>I hope to update you tomorrow with a link to the project!</p>
+    </section>
+  </article>
+  <article role="article" class="post-container">
+    <header class="post-header">
+      <h2>beginning</h2>
+      <p>24 July 2017</p>
+    </header>
+    <section class="post">
+      <p>Today is day one in the process of learning web development. I’m going to begin by focusing on front end development. The reason for this is two-fold: it seems to have a lower point of entry (this may be completely false), and it also offers any readers here a more visual measure of my progress. I will be completing projects of my own interest throughout the learning process. My hope is that each project will look and function slightly better than the last. Just because I’m starting in front end development does not mean I won’t switch to a broader focus, or end up focusing on back end development later on.</p>
+      <p>The main learning resource that I’m going to be using is <a href="http://www.lynda.com/" title="lynda.com" target="_blank">Lynda.com</a>. I have used <a href="http://khanacademy.org" title="khanacademy.org" target="_blank">khan academy</a> and <a href="http://codecademy.com" title="codecademy.com" target="_blank">codecademy</a> before, but they don’t offer much in the way of practical knowledge. Both of those websites use interactive code editors that function straight from your browser, so as soon as you finish a course and leave that environment you’re completely lost. I suppose they’re good for what they are, but they aren’t what I’m looking for. Lynda has an extensive library of web development coursework, and every course teaches you how to set up your native machine to program and test your own code.</p>
+      <p>I’m starting with the HTML Essential Training course on Lynda. I finished the first three sections which included an introduction, and sections on “Basic Page Structure” and “Formatting Page Content”. I like that this course isn’t just going through and teaching me HTML tag by tag, but rather starting with how to structure pages and then getting into finer and finer details from there. As someone with a background in visual art and architectural/engineering drafting I appreciate this approach.</p>
+      <p>Tomorrow I’m going to attempt to knock out the next 2 or 3 sections and create a webpage that will serve as my first “progress report”.</p>
+    </section>
+  </article>
+</main>
+<footer role="contentinfo" class="page-footer">
+  <p>This is the future home of my blog, to see it's current home on WordPress, <a href="http://www.coherentcode.wordpress.com" title="coherent code wordpress blog">click here</a>.<br>
+  <a href="http://www.github.com/coherentcode" title="coherent code github account">My Github account</a> contains the source code for this website and all of it's previous versions.</p>
+</footer>
+</body>
+</html>

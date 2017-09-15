@@ -1,49 +1,66 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
   <title>coherent code - home</title>
-  <link rel="stylesheet" href="_css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700|Ubuntu:400,700" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="_images/cc-logo-32x32.png">
+  <link rel="stylesheet" href="_css/general-styles.css">
+  <link rel="stylesheet" href="_css/desktop-styles.css">
+  <link rel="stylesheet" href="_css/tablet-styles.css">
+  <link rel="stylesheet" href="_css/mobile-styles.css">
+  <script src="_scripts/dropdown-nav.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 </head>
 <body>
-<header role="banner" class="page-header">
-  <h1 class="site-title">coherent code</h1>
+<header role="banner" class="page-header white-header">
+  <div class="site-title indigo-title">
+    <a href="index.htm"><img src="_images/cc-logo-32x32.png" height=32px>
+    <h1>coherent code</h1></a>
+  </div>
   <nav role="navigation" class="menu-bar">
-      <p>
-        <a href="index.htm" title="home" class="menu-item">home</a>
-        <a href="about.htm" title="about" class="menu-item">about</a>
-        <a href="contact.htm" title="contact" class="menu-item">contact</a>
-      </p>
+    <a href="blog.htm" title="blog" class="menu-item grey-item">blog</a>
+    <a href="projects.htm" title="projects" class="menu-item grey-item">projects</a>
+    <a href="about.htm" title="about" class="menu-item grey-item">about</a>
+    <a href="contact.htm" title="contact" class="menu-item grey-item">contact</a>
+  </nav>
+  <nav role="navigation" class="dropdown-nav">
+    <div class="dropbtn-container">
+      <button onclick="dropDown()" class="dropbtn dropbtn-gray"></button>
+    </div>
+    <div class="dropdown-menu">
+      <a href="blog.htm" title="blog" class="drop-item grey-item">blog</a>
+      <a href="projects.htm" title="projects" class="drop-item grey-item">projects</a>
+      <a href="about.htm" title="about" class="drop-item grey-item">about</a>
+      <a href="contact.htm" title="contact" class="drop-item grey-item">contact</a>
+    </div>
   </nav>
 </header>
-<main role="main">
-  <article role="article" class="post-container">
-    <header class="post-header">
-      <h2>day two</h2>
-      <p>25 July 2017</p>
-    </header>
-    <section class="post">
-      <p>Day two went by very quick. I got the next three sections of lynda’s “HTML Essential Training” done which were “Structuring Content”, “Creating Links”, and “Creating Lists”. The “Structuring Content” section went over adding more semantic meaning to your HTML page structure for the benefit of web crawlers and readers (and I suppose anyone who views your html source). The content of the “Creating Links” and “Creating Lists” sections are summarized well by their titles.</p>
-      <p>Thus far, I’m finding that lynda’s course is doing a good job of being quick enough to keep me interested, yet tedious enough to keep me retaining information. Most of the sections have a challenge at the end of them, which are straightforward, but not completely trivial. They also have enough work in them to keep you busy for 5-20 minutes, which I find appropriate for the amount of content they are testing you on (usually about 30-60 minutes of video/interactive training).</p>
-      <p>The final two sections in this course will cover basic styling and scripting. I want to complete my first stand-alone project before I complete these sections to offer a snapshot into what my skills are like before I venture outside of HTML. Once I do complete the final two sections of “HTML Essential Training”, I’m going to move on to “CSS Essential Training” 1 &amp; 2. After that I will likely venture into the “Javascript Essential Training” course, although that’s not set in stone just yet.</p>
-      <p>Now lets talk about my first project! For someone who’s blogging about web development, why not web develop a blog? I’ll let the symmetry of this scenario bounce back and forth in your head a bit before moving on..</p>
-      <p>I’m going to start working on the final home of this blog (right now I’m just using WordPress, in case you didn’t see the web address up top). I’m not going to be moving the blog over for quite some time I’m sure, but I figured it’d be a good first project that I can come back to and improve again and again after I learn more. I got an account set up with amazon web services and registered my domain with google domains as “www.coherentcodebeta.com” (WordPress currently maintains ownership of “www.coherentcode.com” in case I ever want to upgrade my account with them).</p>
-      <p>I’m going to start off by making the site completely static with bare-bones HTML tomorrow. I’m also going to host the source directories of each version of the website on the <a href="http://www.github.com/coherentcode" title="coherent code github account" target="_blank">github account that I made for this blog</a>, that way anyone can go through and look at the site structure and also look at previous versions of the website.</p>
-      <p>I hope to update you tomorrow with a link to the project!</p>
-    </section>
+<main role="main" class="main-container">
+  <article class="title-tile">
+    <img src="_images/cc-logo-white-64x64.png" height=64px>
+    <h2>coherent code</h2>
+    <p>Welcome to the coherent code website! This website was created to document my progress in becoming proficient in HTML, CSS, JavaScript, and other web-related programming and markup languages.</p>
   </article>
-  <article role="article" class="post-container">
-    <header class="post-header">
-      <h2>beginning</h2>
-      <p>24 July 2017</p>
-    </header>
-    <section class="post">
-      <p>Today is day one in the process of learning web development. I’m going to begin by focusing on front end development. The reason for this is two-fold: it seems to have a lower point of entry (this may be completely false), and it also offers any readers here a more visual measure of my progress. I will be completing projects of my own interest throughout the learning process. My hope is that each project will look and function slightly better than the last. Just because I’m starting in front end development does not mean I won’t switch to a broader focus, or end up focusing on back end development later on.</p>
-      <p>The main learning resource that I’m going to be using is <a href="http://www.lynda.com/" title="lynda.com" target="_blank">Lynda.com</a>. I have used <a href="http://khanacademy.org" title="khanacademy.org" target="_blank">khan academy</a> and <a href="http://codecademy.com" title="codecademy.com" target="_blank">codecademy</a> before, but they don’t offer much in the way of practical knowledge. Both of those websites use interactive code editors that function straight from your browser, so as soon as you finish a course and leave that environment you’re completely lost. I suppose they’re good for what they are, but they aren’t what I’m looking for. Lynda has an extensive library of web development coursework, and every course teaches you how to set up your native machine to program and test your own code.</p>
-      <p>I’m starting with the HTML Essential Training course on Lynda. I finished the first three sections which included an introduction, and sections on “Basic Page Structure” and “Formatting Page Content”. I like that this course isn’t just going through and teaching me HTML tag by tag, but rather starting with how to structure pages and then getting into finer and finer details from there. As someone with a background in visual art and architectural/engineering drafting I appreciate this approach.</p>
-      <p>Tomorrow I’m going to attempt to knock out the next 2 or 3 sections and create a webpage that will serve as my first “progress report”.</p>
-    </section>
+  <article class="content-tile" id="blog">
+    <a href="blog.htm"><img src="_images/cc-blog.png" height="150px"></a>
+    <h2>blog</h2>
+    <p>Discussion of online learning resources I've used, updates on my progress, and more.</p>
+  </article>
+  <article class="content-tile" id="projects">
+    <a href="projects.htm"><img src="_images/cc-projects.png" height="150px"></a>
+    <h2>projects</h2>
+    <p>Current and previous versions of my work, with source material.</p>
+  </article>
+  <article class="content-tile" id="about">
+    <a href="about.htm"><img src="_images/cc-about.png" height="150px"></a>
+    <h2>about</h2>
+    <p>Why I started this blog, my background, etc.</p>
+  </article>
+  <article class="content-tile" id="contact">
+    <a href="contact.htm"><img src="_images/cc-contact.png" height="150px"></a>
+    <h2>contact</h2>
+    <p>Ask questions, offer critique, or just say hello.</p>
   </article>
 </main>
 <footer role="contentinfo" class="page-footer">

@@ -1,0 +1,254 @@
+/*-----------------------
+    COLOR PALETTE
+#DBDBDB - light grey
+#444444 - med grey
+#1E1E1E - charcoal
+#382BCE - indigo
+------------------------*/
+
+/*-----------------------------------------------
+    FONTS
+font-family: 'Ubuntu', sans-serif;
+------------------------------------------------*/
+
+/* Global Styles ------------ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+img {
+  box-sizing: content-box;
+}
+h1, h2, h3, body {
+  margin: 0;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+.main-container {
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+
+/* Header ------------ */
+/*general*/
+.page-header {
+  margin-top: 0;
+  width: 100%;
+  font-size: 0;
+}
+.site-title {
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0
+}
+.site-title img {
+  display: inline-block;
+  vertical-align: inherit;
+}
+.site-title h1 {
+  vertical-align: inherit;
+}
+.site-title a {
+  text-decoration: none;
+  vertical-align: inherit;
+  display: inline-block;
+  padding: 0;
+}
+.menu-item {
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+}
+/*white header style*/
+.white-header {
+  background: white;
+}
+.indigo-title h1 {
+  color: #382BCE;
+}
+.grey-item {
+  color: #444444;
+}
+/*indigo header style*/
+.indigo-header {
+  background: #382BCE;
+}
+.white-title h1 {
+  color: white;
+}
+.white-item {
+  color: white;
+}
+
+/* Title tile ------------ */
+.title-tile {
+  width: 100%;
+  background: linear-gradient(rgba(56,43,206,0.8), rgba(56,43,206,0.2));
+  background: linear-gradient(rgba(56, 43, 206, 0.95), rgba(56, 43, 206, 0.9)),
+              url(../_images/cc-main.jpg) no-repeat center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  min-height: 80vh;
+}
+.title-tile h2 {
+  vertical-align: inherit;
+}
+.title-tile img {
+  vertical-align: inherit;
+}
+
+/* Content tile ------------ */
+.content-tile {
+  float: left;
+  color: #444444;
+  text-align: center;
+  transition: all 1s ease;
+}
+.content-tile a {
+  diplay: inline-block;
+  text-decoration: none;
+  color: #1E1E1E;
+}
+.content-tile p {
+  margin: auto;
+}
+#blog:hover {
+  background-color: #DBDBDB;
+}
+#projects:hover {
+  background-color: #DBDBDB;
+}
+#about:hover {
+  background-color: #DBDBDB;
+}
+#contact:hover {
+  background-color: #DBDBDB;
+}
+
+/* Blog posts ------------ */
+.post-container {
+  width: 80%;
+  text-align: left;
+}
+.post-header h2 {
+  color: #1E1E1E;
+}
+.post-header p {
+  color: #444444;
+}
+.post {
+  color: #1E1E1E;
+}
+.post a {
+  text-decoration: underline;
+  color: #382BCE;
+}
+.post a:hover {
+  text-decoration: none;
+}
+
+/* Projects ------------ */
+.project-container {
+  width: 80%;
+  text-align: left;
+}
+.project-header h2 {
+  color: #1E1E1E;
+}
+.project-header p {
+  color: #444444;
+}
+.project-details {
+  color: #1E1E1E;
+}
+.project-details h3 {
+  color: #1E1E1E;
+}
+.project-details a {
+  text-decoration: underline;
+  color: #382BCE;
+}
+.project-details a:hover {
+  text-decoration: none;
+}
+
+/* About ------------ */
+.about-container {
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+  min-height: 90vh;
+}
+.about-image {
+  display: inline-block;
+}
+.about {
+  display: inline-block;
+}
+.about h2 {
+  color: #444444;
+}
+.about h3 {
+  color: #444444;
+}
+.about p {
+  color: #1E1E1E;
+}
+
+/* Contact ------------ */
+.contact-wrapper {
+  margin: auto;
+  min-height: 80vh;
+}
+.contact-wrapper h2 {
+  color: #444444;
+}
+.contact {
+  width: 80%;
+}
+label {
+  color: #1B1B1B;
+}
+input[type=text], input[type=email], select, textarea {
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+  border: 1px solid #444444;
+  border-radius: 2px;
+}
+textarea {
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #444444;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #1B1B1B;
+}
+
+/* Footer ------------ */
+.page-footer {
+  background: #1E1E1E;
+  margin: 0;
+  padding: 10px 10% 10px 10%;
+}
+.page-footer p {
+  color: white;
+}
+.page-footer a {
+  color: #DBDBDB;
+  text-decoration: underline;
+}
+.page-footer a:hover {
+  text-decoration: none;
+}

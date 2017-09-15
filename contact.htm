@@ -1,27 +1,65 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
+  <title>coherent code - home</title>
   <meta charset="utf-8">
-  <title>coherent code - contact</title>
-  <link rel="stylesheet" href="_css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700|Ubuntu:400,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="_images/cc-logo-32x32.png">
+  <link rel="stylesheet" href="_css/general-styles.css">
+  <link rel="stylesheet" href="_css/desktop-styles.css">
+  <link rel="stylesheet" href="_css/tablet-styles.css">
+  <link rel="stylesheet" href="_css/mobile-styles.css">
+  <script src="_scripts/dropdown-nav.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 </head>
 <body>
-<header role="banner" class="page-header">
-  <h1 class="site-title">coherent code</h1>
-  <nav role="navigation" class="menu-bar">
-      <p>
-        <a href="index.htm" title="home" class="menu-item">home</a>
-        <a href="about.htm" title="about" class="menu-item">about</a>
-        <a href="contact.htm" title="contact" class="menu-item">contact</a>
-      </p>
-  </nav>
-</header>
-<main role="main">
-  <article role="article" class="contact">
-    <h2>contact</h2>
-    <p>This page is under construction.</p>
-  </article>
+  <header role="banner" class="page-header indigo-header">
+    <div class="site-title white-title">
+      <a href="index.htm"><img src="_images/cc-logo-white-32x32.png">
+      <h1>coherent code</h1></a>
+    </div>
+    <nav role="navigation" class="menu-bar">
+        <p>
+          <a href="blog.htm" title="blog" class="menu-item white-item">blog</a>
+          <a href="projects.htm" title="projects" class="menu-item white-item">projects</a>
+          <a href="about.htm" title="about" class="menu-item white-item">about</a>
+          <a href="contact.htm" title="contact" class="menu-item white-item">contact</a>
+        </p>
+    </nav>
+    <nav role="navigation" class="dropdown-nav">
+      <div class="dropbtn-container">
+        <button onclick="dropDown()" class="dropbtn dropbtn-white"></button>
+      </div>
+      <div class="dropdown-menu">
+        <a href="blog.htm" title="blog" class="drop-item grey-item">blog</a>
+        <a href="projects.htm" title="projects" class="drop-item grey-item">projects</a>
+        <a href="about.htm" title="about" class="drop-item grey-item">about</a>
+        <a href="contact.htm" title="contact" class="drop-item grey-item">contact</a>
+      </div>
+    </nav>
+  </header>
+<main role="main" class="contact-wrapper">
+  <h2>contact</h2>
+  <div class="contact">
+    <form>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Joe">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Smith">
+
+      <label for="email">Email address</label>
+      <input type="email" id="email" name="email" placeholder="joesmith@email.com">
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" placeholder="Subject..">
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Write your message here.."></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
 </main>
 <footer role="contentinfo" class="page-footer">
   <p>This is the future home of my blog, to see it's current home on WordPress, <a href="http://www.coherentcode.wordpress.com" title="coherent code wordpress blog">click here</a>.<br>

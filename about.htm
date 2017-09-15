@@ -1,28 +1,65 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
   <title>coherent code - about</title>
-  <link rel="stylesheet" href="_css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700|Ubuntu:400,700" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="_images/cc-logo-32x32.png">
+  <link rel="stylesheet" href="_css/general-styles.css">
+  <link rel="stylesheet" href="_css/desktop-styles.css">
+  <link rel="stylesheet" href="_css/tablet-styles.css">
+  <link rel="stylesheet" href="_css/mobile-styles.css">
+  <script src="_scripts/dropdown-nav.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 </head>
 <body>
-<header role="banner" class="page-header">
-  <h1 class="site-title">coherent code</h1>
+<header role="banner" class="page-header indigo-header">
+  <div class="site-title white-title">
+    <a href="index.htm"><img src="_images/cc-logo-white-32x32.png">
+    <h1>coherent code</h1></a>
+  </div>
   <nav role="navigation" class="menu-bar">
       <p>
-        <a href="index.htm" title="home" class="menu-item">home</a>
-        <a href="about.htm" title="about" class="menu-item">about</a>
-        <a href="contact.htm" title="contact" class="menu-item">contact</a>
+        <a href="blog.htm" title="blog" class="menu-item white-item">blog</a>
+        <a href="projects.htm" title="projects" class="menu-item white-item">projects</a>
+        <a href="about.htm" title="about" class="menu-item white-item">about</a>
+        <a href="contact.htm" title="contact" class="menu-item white-item">contact</a>
       </p>
   </nav>
+  <nav role="navigation" class="dropdown-nav">
+    <div class="dropbtn-container">
+      <button onclick="dropDown()" class="dropbtn dropbtn-white"></button>
+    </div>
+    <div class="dropdown-menu">
+      <a href="blog.htm" title="blog" class="drop-item grey-item">blog</a>
+      <a href="projects.htm" title="projects" class="drop-item grey-item">projects</a>
+      <a href="about.htm" title="about" class="drop-item grey-item">about</a>
+      <a href="contact.htm" title="contact" class="drop-item grey-item">contact</a>
+    </div>
+  </nav>
 </header>
-<main role="main">
+<main role="main" class="about-container">
+  <img
+    srcset="_images/cc-about-graphic-200x200.png 200w,
+            _images/cc-about-graphic-250x250.png 250w,
+            _images/cc-about-graphic-340x340.png 340w"
+    sizes="(max-width: 704px) 200px,
+           (max-width: 1024px) 250px,
+           340px"
+    src="_images/cc-about-graphic-340x340.png" height="340" class="about-image" alt="Man working at computer">
   <article role="article" class="about">
     <h2>about</h2>
-    <p>This blog will follow my progress in learning web development. I am starting this process with some programming knowledge, but very little in web development specifically.</p>
+    <p>This website follows my progress in learning web development. I am starting this process with some programming knowledge, but very little in web development specifically.</p>
     <p>I will discuss the educational resources I use, what I think about those resources and their usefulness, and also share projects that I work on along the way. Once I start to reach some level of proficiency, I intend to use this blog to discuss more advanced topics related to web development.</p>
     <p>It is my hope that one day in the future, people can use this site to see what the process of learning web development is like and gain useful insight into how they should go about the process themselves (should that be their interest).</p>
+    <h3>background</h3>
+    <p>My only form of post-secondary education is an associate's degree in Mechanical Engineering Technology. During my first co-op term at school, I got a job at an MEP (mechanical, electrical, and plumbing) design firm. Most of the work I did centered around small, specialty retail shops. I stayed on and worked part-time with the company while finishing my associate's degree.</p>
+    <p>A few years later, one of my colleagues presented me with the opportunity to do some freelance work for him. I started doing architectural drafting along with building systems design, and from there my workload grew and I eventually left the MEP design firm to do freelance work full-time.</p>
+    <p>I have now been a freelance draftsman for two years. Working from home has given me plenty of opportunities to dabble in some of my other interests, namely math, physics, and of course, programming!</p>
+    <h3>programming experience</h3>
+    <p>My first exposure to programming was through a C++ book I rented from the library. I had no idea what computer programming was, and I rented it out of curiosity. I enjoyed it, and got through it to the point of being able to write simple games in the console.</p>
+    <p>Since my freelance work involved using AutoCAD all day, I decided to try to learn LISP for creating custom AutoCAD routines. It was a bit difficult to learn, as there are only a few learning resources available online for AutoCAD LISP specifically, but I eventually got to the point of being able to write my own routines. I have been writing LISP actively ever since. My routines range from simple layer filters to drawing setup commands with full user interfaces.</p>
+    <p>Several months ago, I discovered the <a href="https://www.codecademy.com/" target="_blank">codecademy website</a>, and decided to complete their ruby course. I was originally intending to learn Rails and try to get into web development from there, however, after searching through job postings I found that JavaScript was by far the most popular skill listed (after HTML and CSS, of course). I stumbled upon the Lynda website, really liked the practical nature of it, and I've been working on learning web development ever since!</p>
   </article>
 </main>
 <footer role="contentinfo" class="page-footer">

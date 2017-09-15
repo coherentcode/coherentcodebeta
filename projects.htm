@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>coherent code - projects</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="_images/cc-logo-32x32.png">
+  <link rel="stylesheet" href="_css/general-styles.css">
+  <link rel="stylesheet" href="_css/desktop-styles.css">
+  <link rel="stylesheet" href="_css/tablet-styles.css">
+  <link rel="stylesheet" href="_css/mobile-styles.css">
+  <script src="_scripts/dropdown-nav.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+<header role="banner" class="page-header indigo-header">
+  <div class="site-title white-title">
+    <a href="index.htm"><img src="_images/cc-logo-white-32x32.png">
+    <h1>coherent code</h1></a>
+  </div>
+  <nav role="navigation" class="menu-bar">
+      <p>
+        <a href="blog.htm" title="blog" class="menu-item white-item">blog</a>
+        <a href="projects.htm" title="projects" class="menu-item white-item">projects</a>
+        <a href="about.htm" title="about" class="menu-item white-item">about</a>
+        <a href="contact.htm" title="contact" class="menu-item white-item">contact</a>
+      </p>
+  </nav>
+  <nav role="navigation" class="dropdown-nav">
+    <div class="dropbtn-container">
+      <button onclick="dropDown()" class="dropbtn dropbtn-white"></button>
+    </div>
+    <div class="dropdown-menu">
+      <a href="blog.htm" title="blog" class="drop-item grey-item">blog</a>
+      <a href="projects.htm" title="projects" class="drop-item grey-item">projects</a>
+      <a href="about.htm" title="about" class="drop-item grey-item">about</a>
+      <a href="contact.htm" title="contact" class="drop-item grey-item">contact</a>
+    </div>
+  </nav>
+</header>
+<main role="main">
+  <article role="article" class="project-container" id="blog-website-proj">
+    <header class="project-header">
+      <h2>Blog website</h2>
+      <p>26 July 2017 - Present</p>
+    </header>
+    <section class="project-details">
+      <p>This is the website you are currently looking at! This is the first website I have created completely on my own, and not as part of a course curriculum. I started the website with barebones HTML after completing the first HTML course on <a href="https://www.lynda.com/" target="_blank">lynda.com</a>. Once I completed the first CSS course I added some styling, and once I completed the first JavaScript course I decided to completely revamp the website (v2.0). Since I had enough of the necessary tools to make a professional looking website, I decided to dig in and make something I was proud of. I plan on releasing new versions of the website every month or so.</p>
+      <h3>Versions</h3>
+      <ul>
+        <li>Version 2.0 <sup>[4]</sup><sup>[5]</sup><sup>[6]</sup>
+          <ul>
+            <li>Live!</li>
+            <li>Source</li>
+          </ul>
+        </li>
+        <li>Version 1.1.0 <sup>[3]</sup>
+          <ul>
+            <li><a href="previous-versions/version-one-one-zero/index.htm">Go to</a></li>
+            <li><a href="https://github.com/coherentcode/coherentcodebeta/releases/tag/v1.1.0" target="_blank">Source</a></li>
+          </ul>
+        </li>
+        <li>Version 1.0 <sup>[1]</sup><sup>[2]</sup>
+          <ul>
+            <li><a href="previous-versions/version-one-zero/index.htm">Go to</a></li>
+            <li><a href="https://github.com/coherentcode/coherentcodebeta/releases/tag/v1.0" target="_blank">Source</a></li>
+          </ul>
+        </li>
+      </ul>
+      <h3>Resources</h3>
+      <ol>
+        <li><a href="https://www.lynda.com/Web-Development-tutorials/HTML-Essential-Training/170427-2.html" target="_blank">HTML Essential Training</a></li>
+        <li><a href="http://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html" target="_blank">Setting up a Static Website Using a Custom Domain</a></li>
+        <li><a href="https://www.lynda.com/CSS-tutorials/CSS-Essential-Training-1/569190-2.html" target="_blank">CSS Essential Training 1</a></li>
+        <li><a href="https://www.lynda.com/CSS-tutorials/CSS-Essential-Training-2/569189-2.html" target="_blank">CSS Essential Training 2</a></li>
+        <li><a href="https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/574716-2.html" target="_blank">JavaScript Essential Training</a></li>
+        <li>See "<a href="#dropdown-menu-proj">Dropdown Menu</a>" project</li>
+      </ol>
+    </section>
+  </article>
+  <article role="article" class="project-container" id="dropdown-menu-proj">
+    <header class="project-header">
+      <h2>Dropdown Menu</h2>
+      <p>28 August 2017 - 31 August 2017</p>
+    </header>
+    <section class="project-details">
+      <p>A simple dropdown menu for the navigation bar on the mobile version of my site. I based it off of an example on the <a href="https://www.w3schools.com/" target="_blank">W3 schools website</a>. The example uses a "show" class that simply changes the display type to block on all of the dropdown menu elements. However, I wanted to change some of the styling around on the dropdown button when the menu displayed, and I also had some elements that were displayed as block and others that were displayed as flex. For that reason, I had to select each class individually and turn on its own "show" class.</p>
+      <h3>Versions</h3>
+      <ul>
+        <li>Version 1.0 <sup>[1]</sup>
+          <ul>
+            <li>Live!</li>
+            <li>Source</li>
+          </ul>
+      </ul>
+      <h3>Resources</h3>
+      <ol>
+        <li><a href="https://www.w3schools.com/howto/howto_js_dropdown.asp" target="_blank">W3C How to - Clickable Dropdown</a></li>
+      </ol>
+    </section>
+  </article>
+</main>
+<footer role="contentinfo" class="page-footer">
+  <p>This is the future home of my blog, to see it's current home on WordPress, <a href="http://www.coherentcode.wordpress.com" title="coherent code wordpress blog">click here</a>.<br>
+  <a href="http://www.github.com/coherentcode" title="coherent code github account">My Github account</a> contains the source code for this website and all of it's previous versions.</p>
+</footer>
+</body>
+</html>

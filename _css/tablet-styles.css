@@ -1,0 +1,174 @@
+@media (max-width: 1024px) {
+
+  /* Header ------------ */
+  .page-header {
+    height: 45px;
+  }
+  .site-title {
+    width: 30%;
+  }
+  .site-title h1 {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .site-title img {
+    padding: 10px 15px 8px 15px;
+    height: 25px;
+  }
+  .menu-item {
+    display: inline-block;
+    width: 15%;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .dropdown-nav, .dropbtn, .drop-item {
+    display: none;
+  }
+
+  /* Title tile ------------ */
+  .title-tile {
+    padding: 120px 20px;
+  }
+  .title-tile h2 {
+    margin-top: 5px;
+    font-size: 52px;
+    display: inline-block;
+  }
+  .title-tile img {
+    margin-top: 12px;
+    margin-right: 16px;
+    display: inline-block;
+  }
+  .title-tile p {
+    width: 500px;
+    margin: 80px auto 40px;
+    font-size: 18px;
+    line-height: 2;
+  }
+
+  /* Content tile ------------ */
+  .content-tile {
+    width: 50%;
+    height: 360px;
+  }
+  .content-tile img {
+    margin-top: 40px;
+    height: 90px;
+  }
+  .content-tile h2 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 22px;
+  }
+  .content-tile a {
+    padding: 100px 100px 200px;
+  }
+  .content-tile p {
+    font-size: 16px;
+    line-height: 2;
+    width: 60%;
+  }
+
+  /* Blog posts ------------ */
+  .post-container {
+    margin: 32px auto 32px;
+  }
+  .post-header h2 {
+    font-size: 20px;
+    line-height: 2;
+  }
+  .post-header p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .post {
+    font-size: 16px;
+    line-height: 2;
+  }
+
+  /* Projects ------------ */
+  .project-container {
+    margin: 32px auto 48px;
+  }
+  .project-header h2 {
+    font-size: 20px;
+    line-height: 2;
+  }
+  .project-header p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .project-details {
+    font-size: 16px;
+    line-height: 2;
+  }
+  .project-details h3 {
+    font-size: 18px;
+  }
+  .project-details li {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* About ------------ */
+  .about-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  .about-image {
+    height: 250px;
+  }
+  .about h2 {
+    margin-top: 40px;
+    font-size: 26px;
+    line-height: 2;
+  }
+  .about h3 {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 2;
+  }
+  .about p {
+    font-size: 16px;
+    line-height: 2;
+  }
+
+  /* Contact ------------ */
+  .contact-wrapper h2 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-left: 10%;
+    font-size: 26px;
+    line-height: 1;
+  }
+  .contact {
+    margin: 40px auto;
+  }
+  label {
+    font-size: 16px;
+  }
+  input[type=text], input[type=email], select, textarea {
+    font-size: 16px;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  textarea {
+    height: 140px;
+  }
+  input[type=submit] {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  /* Footer ------------ */
+  .page-footer p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
